@@ -1,0 +1,20 @@
+{
+  "name": "playwright_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "bdd": "cucumber-js --require 'features/**/*.js' --publish-quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^25.9.3",
+    "allure-playwright": "^3.10.1",
+    "@cucumber/cucumber": "^9.0.0"
+  }
+}
